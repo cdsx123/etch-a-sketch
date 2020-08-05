@@ -23,6 +23,7 @@ function createGrid(){
 
 container.addEventListener("mouseover", function(e) {
     e.target.style.backgroundColor = "black";
+    
  })
 
 function resetGrid() {
@@ -33,7 +34,6 @@ function resetGrid() {
 function sizeChanger(){
     numOfDivs = prompt('How many squares would you like each side of the grid to be?')
     resetGrid()
-
 }
 
 reset.addEventListener('click', resetGrid)
